@@ -1,0 +1,16 @@
+{
+  "name": "lowercase-object-keys",
+  "version": "1.0.0",
+  "description": "Transformar claves de un objeto a minusculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lowercase",
+    "object",
+    "keys"
+  ],
+  "author": "@pilmee",
+  "license": "MIT"
+}
