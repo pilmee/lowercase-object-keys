@@ -4,7 +4,7 @@
   "description": "Transformar claves de un objeto a minusculas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine --config=jasmine.json"
   },
   "keywords": [
     "lowercase",
@@ -12,5 +12,8 @@
     "keys"
   ],
   "author": "@pilmee",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  }
 }
