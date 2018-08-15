@@ -1,11 +1,12 @@
 language: node_js
 node_js:
   - '8'
-  - '6'
 before_script:
   - npm install
 script:
   - npm test
+after_success:
+  - npm version patch
 deploy:
   provider: npm
   email: $EMAIL
