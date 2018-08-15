@@ -7,6 +7,9 @@ script:
   - npm test
 after_success:
   - npm version patch
+  - git add .
+  - git commit -m 'bump patch version'
+  - git push 
 deploy:
   provider: npm
   email: $EMAIL
