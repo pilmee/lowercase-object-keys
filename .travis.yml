@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - '8'
+  - 'stable'
 before_script:
   - npm install
 script:
@@ -9,7 +9,7 @@ after_success:
   - npm version patch
   - git add .
   - git commit -m 'bump patch version'
-  - git push 
+  - git push origin master
 deploy:
   provider: npm
   email: $EMAIL
