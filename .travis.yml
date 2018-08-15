@@ -8,5 +8,5 @@ script:
   - npm test
 deploy:
   provider: npm
-  email: EMAIL
-  token: AUTH_TOKEN
+  email: $EMAIL
+  token: $AUTH_TOKEN
