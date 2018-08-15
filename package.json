@@ -1,6 +1,6 @@
 {
   "name": "lowercase-object-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transformar claves de un objeto a minusculas",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,10 @@
   ],
   "author": "@pilmee",
   "license": "MIT",
-  "devDependencies": {
-    "jasmine": "^3.2.0",
+  "dependencies": {
     "lodash": "^4.17.10"
+  }
+  "devDependencies": {
+    "jasmine": "^3.2.0"
   }
 }
