@@ -9,4 +9,4 @@ script:
 deploy:
   provider: npm
   email: $EMAIL
-  token: $AUTH_TOKEN
+  api_key: $AUTH_TOKEN
