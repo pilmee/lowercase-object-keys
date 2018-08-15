@@ -6,3 +6,7 @@ before_script:
   - npm install
 script:
   - npm test
+deploy:
+  provider: npm
+  email: EMAIL
+  token: AUTH_TOKEN
