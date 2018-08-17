@@ -1,7 +1,7 @@
 const lowerCaseObjectKeys = require('./index');
 
 describe('Test', () => {
-  it('should be transform the non lowercased keys to lowercase', () => {
+  it('should transform the properties to lowercase and the original does not exist to be different from it.', () => {
     const testObject = lowerCaseObjectKeys({ One: 1, TWO: 2 });
     expect(testObject.one).toBeDefined();
     expect(testObject.two).toBeDefined();
