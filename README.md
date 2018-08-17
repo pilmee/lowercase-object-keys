@@ -2,7 +2,7 @@
 
 Instruction that transforms the names of the properties of an object to lowercase
 
-**How to install?:**
+## How to install?:
 ```bash
 npm i lowercase-object-keys
 ```
@@ -10,7 +10,7 @@ npm i lowercase-object-keys
 npm i lowercase-object-keys --save-dev
 ```
 
-**How to use?**
+## How to use?:
 ```javascript
 var lowercaseObjectKeys = require('lowercase-object-keys');
 var obj = { NAME: 'Nelida', Age: 30 };
