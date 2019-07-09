@@ -14,7 +14,7 @@
   "author": "@pilmee",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.12"
   },
   "devDependencies": {
     "jasmine": "^3.2.0"
