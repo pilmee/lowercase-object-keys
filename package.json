@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "jasmine": "^3.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilmee/lowercase-object-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pilmee/lowercase-object-keys/issues"
+  },
+  "homepage": "https://github.com/pilmee/lowercase-object-keys#readme"
 }
